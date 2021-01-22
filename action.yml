@@ -1,7 +1,7 @@
-name: 'SFTP uploader'
+name: 'SFTP Upload'
 color: 'green'
 icon: 'upload'
-description: 'upload files to server via SFTP'
+description: 'Upload files to server via SFTP'
 inputs:
   host:
     required: true
@@ -17,9 +17,7 @@ inputs:
     required: true
   remoteDir:
     required: true
-  dryRun:
-    required: false
-    default: false
+
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'sftp.js'
