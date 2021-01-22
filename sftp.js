@@ -1,7 +1,5 @@
-const { deploy } = require('sftp-sync-deploy');
 const core = require('@actions/core');
 const github = require('@actions/github');
-
 const Upload = require('node-upload-util');
 
 Upload.run({

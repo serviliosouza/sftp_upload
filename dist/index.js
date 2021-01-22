@@ -47831,10 +47831,8 @@ XRegExp = XRegExp || (function (undef) {
 /***/ 5857:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const { deploy } = __nccwpck_require__(3221);
 const core = __nccwpck_require__(2186);
 const github = __nccwpck_require__(5438);
-
 const Upload = __nccwpck_require__(606);
 
 Upload.run({
@@ -47855,14 +47853,6 @@ Upload.run({
 /***/ ((module) => {
 
 module.exports = eval("require")("encoding");
-
-
-/***/ }),
-
-/***/ 3221:
-/***/ ((module) => {
-
-module.exports = eval("require")("sftp-sync-deploy");
 
 
 /***/ }),
